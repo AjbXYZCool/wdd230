@@ -1,0 +1,30 @@
+header, footer {
+
+    background-color: rgb(206, 54, 206);
+    border-radius: 10px;
+
+}
+
+body {
+
+    text-align: center;
+
+}
+
+ul {
+
+    width: 200px;
+
+}
+
+header {
+
+    display: inline-grid;
+
+}
+
+header img {
+
+    transform: scale(0.75,0.75);
+
+}
