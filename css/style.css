@@ -28,3 +28,23 @@ header img {
     transform: scale(0.75,0.75);
 
 }
+
+#designdoc {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#designdoc div {
+
+    border-style: solid;
+    border-color:black;
+    border-radius: 10px;
+
+}
+
+#designdoc div h3 {
+
+    background-color:  rgb(206, 54, 206);
+}
