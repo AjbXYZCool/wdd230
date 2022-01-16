@@ -33,6 +33,10 @@ header img {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+    margin: 5px;
+    margin-bottom: 15px;
+    justify-items: center;
 
 }
 
@@ -41,10 +45,19 @@ header img {
     border-style: solid;
     border-color:black;
     border-radius: 10px;
+    max-width: 90%;
 
 }
 
 #designdoc div h3 {
 
     background-color:  rgb(206, 54, 206);
+
+}
+
+#designdoc div img {
+
+    max-width: 75%;
+    height: auto;
+
 }
