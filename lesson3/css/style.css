@@ -61,3 +61,68 @@ header img {
     height: auto;
 
 }
+
+main img {
+
+    max-width: 500px;
+
+}
+
+#colorblock1 {
+
+    background-color: #B59609;
+
+}
+
+#colorblock2 {
+
+    background-color: #BF540A;
+
+}
+
+#colorblock3 {
+
+    background-color: #001F33;
+}
+
+#colorblock3 p {
+
+    color: white;
+
+}
+
+#colorblock4 {
+
+    background-color: #5200EB;
+
+}
+
+#colorblock5 {
+
+    background-color: #A80043;
+
+}
+
+.colorblock {
+
+    max-width: 75%;
+
+}
+
+#oldstandard {
+
+    font-family: 'Old Standard TT', serif;
+
+}
+
+#avera {
+
+    font-family: 'Averia Gruesa Libre', cursive;
+
+}
+
+#rokkitt {
+
+    font-family: 'Rokkitt', serif;
+    
+}
