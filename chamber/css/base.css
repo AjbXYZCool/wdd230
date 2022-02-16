@@ -1,0 +1,87 @@
+header, footer {
+
+    background-color: #B59609;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+
+    max-width: 250px;
+    max-height: 250px;
+    display: inline;
+
+}
+
+footer {
+
+    text-align: center;
+    text-justify: center;
+
+}
+
+#maincontainer {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    margin: 10px;
+
+}
+
+#maincontainer div {
+
+    background-color: #5200EB;
+    font-style: italic;
+
+}
+
+#events {
+
+    grid-row: 2/3;
+    min-height: 300px;
+
+}
+
+#weather {
+
+    grid-row: 3/4;
+    min-height: 300px;
+
+}
+
+#join {
+
+    display: none;
+    grid-row: 3/4;
+    min-height: 300px;
+
+}
+
+#hero {
+
+    grid-row: 1/2;
+    min-height: 600px;
+
+}
+
+#news {
+
+    grid-row: 4/5;
+    min-height: 300px;
+
+}
+
+#spotlight{
+
+    grid-row: 5/6;
+    min-height: 900px;
+
+}

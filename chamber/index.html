@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/medium.css">
-  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/medium.css">
+  <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/large.css">
   <title>Kakariko Chamber of Commerce Home Page</title>
   
 </head>
@@ -28,14 +28,27 @@
       <a href="./index.html">Social Media 1</a>
       <a href="./index.html">Social Media 2</a>
     </nav>
+    <span id="currentdate"></span>
+    <aside></aside>
   </header>
 
   <main>
-
+    <div id="maincontainer">
+      <div id="events">Event</div>
+      <div id="weather">Weather</div>
+      <div id="join">Join</div>
+      <div id="hero">Hero with site name and call to action</div>
+      <div id="news">News Release</div>
+      <div id="spotlight">
+        <div>Spotlight 1</div>
+        <div>Spotlight 2</div>
+        <div>Spotlight 3</div>
+      </div>
+    </div>
   </main>
 
   <footer>
-      &copy;<span id='copyright'></span> | Andrew Blackburn | Illinois | <a href="https://www.byui.edu/online">BYUI Online Learning</a><br><span id='modified'></span>
+    <img src="images/Kakariko_Chamber_of_Commerce.png">&copy;<span id='copyright'></span> Kakariko Chamber of Commerce | Andrew Blackburn | WDD 230 Project<br><span id='modified'></span>
   </footer>
     
     <script src="js/script.js"></script>
