@@ -51,7 +51,6 @@
 #spotlight{
 
     grid-row: 3/4;
-    grid-column-start: span 3; 
-    min-height: 900px;
+    grid-column-start: span 3;
 
 }
