@@ -54,3 +54,9 @@
     grid-column-start: span 3;
 
 }
+
+#footerbio {
+
+    flex-direction: row;
+    
+}

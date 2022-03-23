@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/medium.css">
   <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="favicon.ico">
   <title>Kakariko Chamber of Commerce Home Page</title>
   
@@ -22,16 +23,21 @@
   <header>
     <img src="images/Kakariko_Chamber_of_Commerce.webp">
     <span id="currentdate"></span>
-    <aside></aside>
-    <nav>
-      <a href="./index.html">Home</a>
-      <a href="./index.html">Page 2</a>
-      <a href="./index.html">Page 3</a>
-      <a href="./index.html">Page 4</a>
-      <a href="./index.html">Social Media 1</a>
-      <a href="./index.html">Social Media 2</a>
+    <nav id="navigate">
+      <div id="myLinks">
+        <a href="./index.html">Home</a>
+        <a href="./index.html">Page 2</a>
+        <a href="./index.html">Page 3</a>
+        <a href="./index.html">Page 4</a>
+        <a href="https://www.facebook.com"><img src="images/f_logo_RGB-Blue_58.png" class="social"></a>
+        <a href="https://www.linkedin.com"><img src="images/LI-In-Bug.png" class="social"></a>
+      </div>
     </nav>
-    
+
+    <a href="javascript:void();" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>    
+
   </header>
 
   <main>
@@ -50,7 +56,8 @@
   </main>
 
   <footer>
-    <img src="images/Kakariko_Chamber_of_Commerce.webp">&copy;<span id='copyright'></span> Kakariko Chamber of Commerce | Andrew Blackburn | WDD 230 Project<br><span id='modified'></span>
+    <!---->
+    <div id="footerbio"><img src="images/Kakariko_Chamber_of_Commerce.webp"><div id="contact">333 N Shiekah Dr Kakariko, Hyrule 10079<br>info@kakarikocc.com<br>+1 (815) 298-7664<br><a href="https://www.google.com/maps/place/222+N+5th+St,+Rockford,+IL+61107/@42.2676079,-89.0850077,17z/data=!3m1!4b1!4m5!3m4!1s0x8808bfcdd1a06279:0x7c0e0ab4966d954!8m2!3d42.267604!4d-89.082819">Click here to see our location!</a></a></div></div><br>&copy;<span id='copyright'></span> Kakariko Chamber of Commerce | Andrew Blackburn | WDD 230 Project<br><span id='modified'></span>
   </footer>
     
   <script src="js/script.js"></script>

@@ -13,6 +13,13 @@ header {
 
 }
 
+nav {
+
+    font-size: 2em;
+    display: flex;
+    gap: 50px;
+}
+
 img {
 
     max-width: 250px;
@@ -34,13 +41,19 @@ main {
 
 }
 
-#currentdate, aside {
+#currentdate {
 
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem;
 	background-color: #eee;
     
+}
+
+.social {
+
+    max-height: 30px;
+
 }
 
 #maincontainer {
@@ -117,4 +130,27 @@ main {
 
     display: none;
 
+}
+
+#footerbio {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    place-items: center;
+
+}
+
+#contact {
+
+    display: grid;
+    margin: 0 auto;
+    place-items: center;
+
+}
+
+#myLinks {
+
+    display: none;
+    
 }
